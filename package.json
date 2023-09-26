@@ -1,0 +1,16 @@
+{
+  "name": "moe-docs",
+  "version": "1.0.0",
+  "description": "DOCS OF Maintenance-Organization-of-E-equipment",
+  "main": "index.js",
+  "repository": "https://github.com/Maintenance-Organization-of-E-equipment/MOE-DOCS",
+  "author": "Maintenance-Organization-of-E-equipment",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.67"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
